@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="run.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Symbol 20000" x="0" y="0" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20001" x="0" y="0" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20002" x="2565" y="0" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20003" x="2565" y="0" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20004" x="5130" y="0" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20005" x="5130" y="0" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20006" x="0" y="1045" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20007" x="0" y="1045" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20008" x="2565" y="1045" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20009" x="2565" y="1045" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20010" x="5130" y="1045" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20011" x="5130" y="1045" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20012" x="0" y="2090" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20013" x="0" y="2090" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20014" x="2565" y="2090" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20015" x="2565" y="2090" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20016" x="5130" y="2090" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20017" x="5130" y="2090" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20018" x="0" y="3135" width="2560" height="1040"/>
+	<SubTexture name="Symbol 20019" x="0" y="3135" width="2560" height="1040"/>
+</TextureAtlas>

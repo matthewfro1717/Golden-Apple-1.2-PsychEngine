@@ -1,0 +1,79 @@
+{
+	"song": {
+		"speed": 2.5,
+		"stage": "damn_background",
+		"player1": "bf",
+		"player2": "ohungi",
+		"player3": null,
+		"events": [
+			[
+				13714.2857142857,
+				[
+					[
+						"Change Character",
+						"1",
+						"ohungimania"
+					]
+				]
+			],
+			[
+				41142.8571428571,
+				[
+					[
+						"Change Character",
+						"1",
+						"ohungimania"
+					]
+				]
+			],
+			[
+				41142.8571428571,
+				[
+					[
+						"Change Character",
+						"1",
+						"ohungimania"
+					]
+				]
+			],
+			[
+				66857.1428571429,
+				[
+					[
+						"Play Animation",
+						"puppet",
+						"Dad"
+					]
+				]
+			],
+			[
+				72000,
+				[
+					[
+						"Alt Idle Animation",
+						"Dad",
+						"-alt"
+					]
+				]
+			],
+			[
+				82285.7142857143,
+				[
+					[
+						"Alt Idle Animation",
+						"Dad",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 140,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "egomania"
+	}
+}

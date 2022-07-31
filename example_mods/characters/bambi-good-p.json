@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				-7
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-67,
+				8
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				14
+			],
+			"anim": "Talk",
+			"fps": 24,
+			"name": "TALK",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-32,
+				3
+			],
+			"anim": "Holy",
+			"fps": 24,
+			"name": "HOLYSHIT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-28,
+				-1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "RIGHT"
+		},
+		{
+			"offsets": [
+				-11,
+				-2
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "LEFT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bambiShip",
+	"position": [
+		20,
+		450
+	],
+	"healthicon": "bambi-ship",
+	"flip_x": false,
+	"healthbar_colors": [
+		12,
+		181,
+		0
+	],
+	"camera_position": [
+		-70,
+		90
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

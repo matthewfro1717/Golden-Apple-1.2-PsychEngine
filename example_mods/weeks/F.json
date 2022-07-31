@@ -1,0 +1,140 @@
+{
+	"songs": [
+		[
+			"Gift-Card",
+			"bandu",
+			[
+				0,
+				213,
+				0
+			]
+		],
+		[
+			"The-Big-Dingle",
+			"dingle-donk-duo",
+			[
+				66,
+				73,
+				135
+			]
+		],
+		[
+			"Dale",
+			"dale",
+			[
+				146,
+				0,
+				0
+			]
+		],
+		[
+			"Origin",
+			"origin",
+			[
+				0,
+				255,
+				0
+			]
+		],
+		[
+			"Apprentice",
+			"tristan",
+			[
+				255,
+				0,
+				0
+			]
+		],
+		[
+			"Resumed",
+			"dambu",
+			[
+				255,
+				255,
+				0
+			]
+		],
+		[
+			"Ready-Loud",
+			"flumpt",
+			[
+				255,
+				235,
+				255
+			]
+		],
+		[
+			"Bookworm",
+			"bookworm",
+			[
+				0,
+				255,
+				0
+			]
+		],
+		[
+			"Cuberoot",
+			"disability",
+			[
+				0,
+				113,
+				255
+			]
+		],
+		[
+			"Alternate",
+			"david",
+			[
+				255,
+				255,
+				0
+			]
+		],
+		[
+			"Unhinged",
+			"unhinged",
+			[
+				0,
+				113,
+				255
+			]
+		],
+		[
+			"Theft",
+			"garrett",
+			[
+				255,
+				255,
+				0
+			]
+		],
+		[
+			"Too-Shiny",
+			"diamond",
+			[
+				0,
+				255,
+				255
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Extras",
+	"weekName": "Extras",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

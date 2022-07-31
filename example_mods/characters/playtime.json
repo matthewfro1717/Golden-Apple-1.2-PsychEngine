@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-1,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-1,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-1,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-1,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-1
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				601,
+				352
+			],
+			"anim": "hi",
+			"fps": 24,
+			"name": "CHECK OUT MY LIL FRIENDO",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/playtime",
+	"position": [
+		-210,
+		120
+	],
+	"healthicon": "playtime-2",
+	"flip_x": false,
+	"healthbar_colors": [
+		196,
+		194,
+		193
+	],
+	"camera_position": [
+		-280,
+		-330
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

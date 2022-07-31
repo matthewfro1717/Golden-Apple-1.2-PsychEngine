@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-246,
+				-138
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-247,
+				-138
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-247,
+				-138
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-247,
+				-138
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-247,
+				-138
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				355,
+				215
+			],
+			"anim": "intro",
+			"fps": 24,
+			"name": "CHECK OUT MY LIL FRIEND",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/playTimeTwoPointOh",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "playtime-2",
+	"flip_x": false,
+	"healthbar_colors": [
+		196,
+		194,
+		193
+	],
+	"camera_position": [
+		0,
+		-60
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

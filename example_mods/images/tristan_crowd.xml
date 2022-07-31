@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tristan crowd.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="crowd0000" x="2" y="2" width="1462" height="517" frameX="0" frameY="-76" frameWidth="1488" frameHeight="594"/>
+	<SubTexture name="crowd0001" x="2" y="2" width="1462" height="517" frameX="0" frameY="-76" frameWidth="1488" frameHeight="594"/>
+	<SubTexture name="crowd0002" x="1474" y="2" width="1462" height="573" frameX="-26" frameY="-21" frameWidth="1488" frameHeight="594"/>
+	<SubTexture name="crowd0003" x="1474" y="2" width="1462" height="573" frameX="-26" frameY="-21" frameWidth="1488" frameHeight="594"/>
+	<SubTexture name="crowd0004" x="2" y="585" width="1411" height="591" frameX="-46" frameY="0" frameWidth="1488" frameHeight="594"/>
+	<SubTexture name="crowd0005" x="2" y="585" width="1411" height="591" frameX="-46" frameY="0" frameWidth="1488" frameHeight="594"/>
+	<SubTexture name="crowd0006" x="1423" y="585" width="1406" height="591" frameX="-52" frameY="0" frameWidth="1488" frameHeight="594"/>
+	<SubTexture name="crowd0007" x="1423" y="585" width="1406" height="591" frameX="-52" frameY="0" frameWidth="1488" frameHeight="594"/>
+</TextureAtlas>

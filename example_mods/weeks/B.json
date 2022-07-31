@@ -1,0 +1,29 @@
+{
+	"storyName" : "dave's fun rapping battle!",
+	"difficulties": "Normal",
+	"hideFreeplay" : false,
+	"weekBackground" : "",
+	"weekBefore" : "tutorial",
+	"freeplayColor" : [ 146, 113, 253 ],
+	"startUnlocked" : true,
+	"weekCharacters" : [ "", "", "" ],
+	"songs" : [
+		[
+			"disability",
+			"disability",
+			[ 0, 60, 200 ]
+		],
+		[
+			"wireframe",
+			"decdave",
+			[ 200, 20, 40 ]
+		],
+		[
+			"sugar-rush",
+			"bandu",
+			[ 0, 220, 0 ]
+		]
+	],
+	"hideStoryMode" : true,
+	"weekName" : "bandu"
+}

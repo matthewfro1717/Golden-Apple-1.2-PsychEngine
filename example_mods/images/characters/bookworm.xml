@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bambi_assets.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bambi down0000" x="5" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down0001" x="5" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down0002" x="477" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down0003" x="477" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down0004" x="949" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down0005" x="949" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down0006" x="949" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down0007" x="949" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down0008" x="949" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down0009" x="949" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down0010" x="949" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down0011" x="949" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down0012" x="949" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down0013" x="949" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0000" x="1421" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0001" x="1421" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0002" x="1893" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0003" x="1893" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0004" x="2365" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0005" x="2365" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0006" x="2365" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0007" x="2365" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0008" x="2365" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0009" x="2365" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0010" x="2365" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0011" x="2365" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0012" x="2365" y="5" width="467" height="366"/>
+	<SubTexture name="bambi down mad0013" x="2365" y="5" width="467" height="366"/>
+	<SubTexture name="bambi idle0000" x="2837" y="5" width="369" height="374"/>
+	<SubTexture name="bambi idle0001" x="2837" y="5" width="369" height="374"/>
+	<SubTexture name="bambi idle0002" x="3211" y="5" width="369" height="374"/>
+	<SubTexture name="bambi idle0003" x="3211" y="5" width="369" height="374"/>
+	<SubTexture name="bambi idle0004" x="3585" y="5" width="369" height="374"/>
+	<SubTexture name="bambi idle0005" x="3585" y="5" width="369" height="374"/>
+	<SubTexture name="bambi idle0006" x="5" y="384" width="369" height="374"/>
+	<SubTexture name="bambi idle0007" x="5" y="384" width="369" height="374"/>
+	<SubTexture name="bambi idle0008" x="379" y="384" width="369" height="374"/>
+	<SubTexture name="bambi idle0009" x="379" y="384" width="369" height="374"/>
+	<SubTexture name="bambi idle0010" x="379" y="384" width="369" height="374"/>
+	<SubTexture name="bambi idle0011" x="379" y="384" width="369" height="374"/>
+	<SubTexture name="bambi idle0012" x="379" y="384" width="369" height="374"/>
+	<SubTexture name="bambi idle0013" x="379" y="384" width="369" height="374"/>
+	<SubTexture name="bambi idle mad0000" x="753" y="384" width="669" height="351"/>
+	<SubTexture name="bambi idle mad0001" x="753" y="384" width="669" height="351"/>
+	<SubTexture name="bambi idle mad0002" x="1427" y="384" width="669" height="351"/>
+	<SubTexture name="bambi idle mad0003" x="1427" y="384" width="669" height="351"/>
+	<SubTexture name="bambi idle mad0004" x="2101" y="384" width="669" height="351"/>
+	<SubTexture name="bambi idle mad0005" x="2101" y="384" width="669" height="351"/>
+	<SubTexture name="bambi idle mad0006" x="2775" y="384" width="669" height="351"/>
+	<SubTexture name="bambi idle mad0007" x="2775" y="384" width="669" height="351"/>
+	<SubTexture name="bambi idle mad0008" x="2775" y="384" width="669" height="351"/>
+	<SubTexture name="bambi idle mad0009" x="2775" y="384" width="669" height="351"/>
+	<SubTexture name="bambi idle mad0010" x="2775" y="384" width="669" height="351"/>
+	<SubTexture name="bambi idle mad0011" x="2775" y="384" width="669" height="351"/>
+	<SubTexture name="bambi idle mad0012" x="2775" y="384" width="669" height="351"/>
+	<SubTexture name="bambi idle mad0013" x="2775" y="384" width="669" height="351"/>
+	<SubTexture name="bambi left0000" x="3449" y="384" width="415" height="374"/>
+	<SubTexture name="bambi left0001" x="3449" y="384" width="415" height="374"/>
+	<SubTexture name="bambi left0002" x="5" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left0003" x="5" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left0004" x="425" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left0005" x="425" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left0006" x="425" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left0007" x="425" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left0008" x="425" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left0009" x="425" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left0010" x="425" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left0011" x="425" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left0012" x="425" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left0013" x="425" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0000" x="845" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0001" x="845" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0002" x="1265" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0003" x="1265" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0004" x="1685" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0005" x="1685" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0006" x="1685" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0007" x="1685" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0008" x="1685" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0009" x="1685" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0010" x="1685" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0011" x="1685" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0012" x="1685" y="763" width="415" height="374"/>
+	<SubTexture name="bambi left mad0013" x="1685" y="763" width="415" height="374"/>
+	<SubTexture name="bambi right0000" x="2105" y="763" width="673" height="364"/>
+	<SubTexture name="bambi right0001" x="2105" y="763" width="673" height="364"/>
+	<SubTexture name="bambi right0002" x="2783" y="763" width="673" height="364"/>
+	<SubTexture name="bambi right0003" x="2783" y="763" width="673" height="364"/>
+	<SubTexture name="bambi right0004" x="5" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right0005" x="5" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right0006" x="5" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right0007" x="5" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right0008" x="5" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right0009" x="5" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right0010" x="5" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right0011" x="5" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right0012" x="5" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right0013" x="5" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0000" x="683" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0001" x="683" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0002" x="1361" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0003" x="1361" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0004" x="2039" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0005" x="2039" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0006" x="2039" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0007" x="2039" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0008" x="2039" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0009" x="2039" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0010" x="2039" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0011" x="2039" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0012" x="2039" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi right mad0013" x="2039" y="1142" width="673" height="364"/>
+	<SubTexture name="bambi up0000" x="2717" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up0001" x="2717" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up0002" x="3149" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up0003" x="3149" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up0004" x="3581" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up0005" x="3581" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up0006" x="3581" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up0007" x="3581" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up0008" x="3581" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up0009" x="3581" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up0010" x="3581" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up0011" x="3581" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up0012" x="3581" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up0013" x="3581" y="1142" width="427" height="432"/>
+	<SubTexture name="bambi up mad0000" x="5" y="1579" width="427" height="432"/>
+	<SubTexture name="bambi up mad0001" x="5" y="1579" width="427" height="432"/>
+	<SubTexture name="bambi up mad0002" x="437" y="1579" width="427" height="432"/>
+	<SubTexture name="bambi up mad0003" x="437" y="1579" width="427" height="432"/>
+	<SubTexture name="bambi up mad0004" x="869" y="1579" width="427" height="432"/>
+	<SubTexture name="bambi up mad0005" x="869" y="1579" width="427" height="432"/>
+	<SubTexture name="bambi up mad0006" x="869" y="1579" width="427" height="432"/>
+	<SubTexture name="bambi up mad0007" x="869" y="1579" width="427" height="432"/>
+	<SubTexture name="bambi up mad0008" x="869" y="1579" width="427" height="432"/>
+	<SubTexture name="bambi up mad0009" x="869" y="1579" width="427" height="432"/>
+	<SubTexture name="bambi up mad0010" x="869" y="1579" width="427" height="432"/>
+	<SubTexture name="bambi up mad0011" x="869" y="1579" width="427" height="432"/>
+	<SubTexture name="bambi up mad0012" x="869" y="1579" width="427" height="432"/>
+	<SubTexture name="bambi up mad0013" x="869" y="1579" width="427" height="432"/>
+</TextureAtlas>

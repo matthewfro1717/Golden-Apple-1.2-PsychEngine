@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				64,
+				-259
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "bambi idle mad"
+		},
+		{
+			"offsets": [
+				60,
+				-231
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "bambi left mad"
+		},
+		{
+			"offsets": [
+				70,
+				-240
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "bambi right mad"
+		},
+		{
+			"offsets": [
+				32,
+				-242
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "bambi down mad"
+		},
+		{
+			"offsets": [
+				3,
+				-186
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "bambi up mad"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bookworm",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "bookworm",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		175,
+		82
+	],
+	"camera_position": [
+		-110,
+		280
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

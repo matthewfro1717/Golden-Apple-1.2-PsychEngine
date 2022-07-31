@@ -1,0 +1,59 @@
+{
+	"songs": [
+		[
+			"Cell",
+			"cell",
+			[
+				60,
+				60,
+				60
+			]
+		],
+		[
+			"Ticking",
+			"ouch",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"RECOVERED-PROJECT",
+			"recovered",
+			[
+				140,
+				140,
+				140
+			]
+		],
+		[
+			"Dave-x-Bambi-Shipping-Cute",
+			"dab",
+			[
+				0,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Secret",
+	"weekName": "Secret",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

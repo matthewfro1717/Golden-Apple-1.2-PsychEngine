@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="unhingedDumpster.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Dump instance 10000" x="0" y="0" width="978" height="525"/>
+	<SubTexture name="Dump instance 10001" x="0" y="0" width="978" height="525"/>
+	<SubTexture name="Dump instance 10002" x="0" y="0" width="978" height="525"/>
+	<SubTexture name="Dump instance 10003" x="0" y="0" width="978" height="525"/>
+	<SubTexture name="Dump instance 10004" x="1003" y="0" width="978" height="525"/>
+	<SubTexture name="Dump instance 10005" x="1003" y="0" width="978" height="525"/>
+	<SubTexture name="Dump instance 10006" x="2006" y="0" width="978" height="525"/>
+	<SubTexture name="Dump instance 10007" x="2006" y="0" width="978" height="525"/>
+	<SubTexture name="Dump instance 10008" x="3009" y="0" width="978" height="525"/>
+	<SubTexture name="Dump instance 10009" x="3009" y="0" width="978" height="525"/>
+	<SubTexture name="Dump instance 10010" x="4012" y="0" width="978" height="525"/>
+	<SubTexture name="Dump instance 10011" x="4012" y="0" width="978" height="525"/>
+	<SubTexture name="Dump instance 10012" x="5015" y="0" width="978" height="525"/>
+	<SubTexture name="Dump instance 10013" x="5015" y="0" width="978" height="525"/>
+</TextureAtlas>

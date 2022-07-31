@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Jeff.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jeff Down0000" x="5" y="5" width="584" height="388"/>
+	<SubTexture name="Jeff Down0001" x="599" y="5" width="584" height="388"/>
+	<SubTexture name="Jeff Down0002" x="1193" y="5" width="584" height="388"/>
+	<SubTexture name="Jeff Idle0000" x="1787" y="5" width="573" height="390"/>
+	<SubTexture name="Jeff Idle0001" x="5" y="405" width="573" height="390"/>
+	<SubTexture name="Jeff Idle0002" x="588" y="405" width="573" height="390"/>
+	<SubTexture name="Jeff Idle0003" x="1171" y="405" width="573" height="390"/>
+	<SubTexture name="Jeff Idle0004" x="1754" y="405" width="573" height="390"/>
+	<SubTexture name="Jeff Idle0005" x="5" y="805" width="573" height="390"/>
+	<SubTexture name="Jeff Idle0006" x="588" y="805" width="573" height="390"/>
+	<SubTexture name="Jeff Idle0007" x="1171" y="805" width="573" height="390"/>
+	<SubTexture name="Jeff Idle0008" x="1754" y="805" width="573" height="390"/>
+	<SubTexture name="Jeff Idle0009" x="5" y="1205" width="573" height="390"/>
+	<SubTexture name="Jeff Idle0010" x="588" y="1205" width="573" height="390"/>
+	<SubTexture name="Jeff Idle0011" x="1171" y="1205" width="573" height="390"/>
+	<SubTexture name="Jeff Idle0012" x="1754" y="1205" width="573" height="390"/>
+	<SubTexture name="Jeff Idle0013" x="5" y="1605" width="573" height="390"/>
+	<SubTexture name="Jeff Left0000" x="588" y="1605" width="654" height="405"/>
+	<SubTexture name="Jeff Left0001" x="1252" y="1605" width="654" height="405"/>
+	<SubTexture name="Jeff Left0002" x="5" y="2020" width="654" height="405"/>
+	<SubTexture name="Jeff Right0000" x="669" y="2020" width="621" height="401"/>
+	<SubTexture name="Jeff Right0001" x="1300" y="2020" width="621" height="401"/>
+	<SubTexture name="Jeff Right0002" x="2370" y="5" width="621" height="401"/>
+	<SubTexture name="Jeff Up0000" x="2337" y="416" width="568" height="486"/>
+	<SubTexture name="Jeff Up0001" x="2337" y="912" width="568" height="486"/>
+	<SubTexture name="Jeff Up0002" x="2337" y="1408" width="568" height="486"/>
+</TextureAtlas>

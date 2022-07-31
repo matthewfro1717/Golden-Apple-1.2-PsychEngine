@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"OG",
+			"prealpha",
+			[
+				235,
+				235,
+				235
+			]
+		],
+		[
+			"Sick-Tricks",
+			"roblos",
+			[
+				0,
+				133,
+				253
+			]
+		],
+		[
+			"Galactic",
+			"super",
+			[
+				0,
+				193,
+				0
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "iykyk",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "If You Know, You Know",
+	"weekName": "If You Know, You Know",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

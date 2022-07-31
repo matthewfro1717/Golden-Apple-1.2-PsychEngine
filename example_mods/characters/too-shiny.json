@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "diamond idle"
+		},
+		{
+			"offsets": [
+				360,
+				40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "diamond left"
+		},
+		{
+			"offsets": [
+				68,
+				-64
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "diamond down"
+		},
+		{
+			"offsets": [
+				89,
+				177
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "diamond up"
+		},
+		{
+			"offsets": [
+				109,
+				29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "diamond right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/diamondswag",
+	"position": [
+		50,
+		40
+	],
+	"healthicon": "diamond",
+	"flip_x": false,
+	"healthbar_colors": [
+		129,
+		180,
+		227
+	],
+	"camera_position": [
+		-190,
+		-100
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}

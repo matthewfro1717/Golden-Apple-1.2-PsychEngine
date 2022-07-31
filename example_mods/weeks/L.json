@@ -1,0 +1,59 @@
+{
+	"songs": [
+		[
+			"Tantalum",
+			"ringi",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Strawberry",
+			"bambom",
+			[
+				255,
+				20,
+				0
+			]
+		],
+		[
+			"Keyboard",
+			"bendu",
+			[
+				255,
+				255,
+				0
+			]
+		],
+		[
+			"Sillier",
+			"blogblez",
+			[
+				0,
+				213,
+				0
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Ocs",
+	"weekName": "Ocs",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

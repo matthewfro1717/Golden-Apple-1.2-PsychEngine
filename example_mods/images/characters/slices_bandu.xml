@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="slices_bandu.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DOWN0000" x="642" y="615" width="622" height="595"/>
+	<SubTexture name="IDLE0000" x="10" y="10" width="622" height="595"/>
+	<SubTexture name="LEFT0000" x="642" y="10" width="622" height="595"/>
+	<SubTexture name="RIGHT0000" x="1274" y="10" width="622" height="595"/>
+	<SubTexture name="UP0000" x="10" y="615" width="622" height="595"/>
+</TextureAtlas>

@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Wheels",
+			"wheels",
+			[
+				40,
+				73,
+				253
+			]
+		],
+		[
+			"Poopers",
+			"awesome-son",
+			[
+				255,
+				0,
+				0
+			]
+		],
+		[
+			"The-Boopadoop-Song",
+			"cynda",
+			[
+				0,
+				255,
+				255
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Joke",
+	"weekName": "Joke",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

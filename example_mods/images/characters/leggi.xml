@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="leggi.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="attack0000" x="0" y="0" width="966" height="832"/>
+	<SubTexture name="attack0001" x="0" y="0" width="966" height="832"/>
+	<SubTexture name="attack0002" x="971" y="0" width="966" height="832"/>
+	<SubTexture name="attack0003" x="971" y="0" width="966" height="832"/>
+	<SubTexture name="attack0004" x="1942" y="0" width="966" height="832"/>
+	<SubTexture name="attack0005" x="1942" y="0" width="966" height="832"/>
+	<SubTexture name="attack0006" x="2913" y="0" width="966" height="832"/>
+	<SubTexture name="attack0007" x="2913" y="0" width="966" height="832"/>
+	<SubTexture name="attack0008" x="0" y="837" width="966" height="832"/>
+	<SubTexture name="attack0009" x="0" y="837" width="966" height="832"/>
+	<SubTexture name="attack0010" x="971" y="837" width="966" height="832"/>
+	<SubTexture name="attack0011" x="971" y="837" width="966" height="832"/>
+	<SubTexture name="attack0012" x="1942" y="837" width="966" height="832"/>
+	<SubTexture name="attack0013" x="1942" y="837" width="966" height="832"/>
+	<SubTexture name="attack0014" x="2913" y="837" width="966" height="832"/>
+	<SubTexture name="attack0015" x="2913" y="837" width="966" height="832"/>
+	<SubTexture name="attack0016" x="2913" y="837" width="966" height="832"/>
+	<SubTexture name="run0000" x="0" y="1674" width="965" height="832"/>
+	<SubTexture name="run0001" x="0" y="1674" width="965" height="832"/>
+	<SubTexture name="run0002" x="970" y="1674" width="965" height="832"/>
+	<SubTexture name="run0003" x="970" y="1674" width="965" height="832"/>
+	<SubTexture name="run0004" x="1940" y="1674" width="965" height="832"/>
+	<SubTexture name="run0005" x="1940" y="1674" width="965" height="832"/>
+	<SubTexture name="run0006" x="2910" y="1674" width="965" height="832"/>
+	<SubTexture name="run0007" x="2910" y="1674" width="965" height="832"/>
+	<SubTexture name="run0008" x="0" y="2511" width="965" height="832"/>
+	<SubTexture name="run0009" x="0" y="2511" width="965" height="832"/>
+	<SubTexture name="run0010" x="1940" y="1674" width="965" height="832"/>
+	<SubTexture name="run0011" x="1940" y="1674" width="965" height="832"/>
+</TextureAtlas>

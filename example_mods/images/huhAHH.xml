@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="huhAHH.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ok0000" x="0" y="0" width="848" height="1064"/>
+	<SubTexture name="why0000" x="853" y="0" width="848" height="1064"/>
+	<SubTexture name="SHITS PANTS0000" x="1706" y="0" width="848" height="1064"/>
+	<SubTexture name="ong0000" x="2559" y="0" width="848" height="1064"/>
+	<SubTexture name="bruh000" x="0" y="1069" width="848" height="1064"/>
+	<SubTexture name="silly0000" x="853" y="1069" width="848" height="1064"/>
+	<SubTexture name="goofy0000" x="1706" y="1069" width="848" height="1064"/>
+	<SubTexture name="fake0000" x="2559" y="1069" width="848" height="1064"/>
+	<SubTexture name="shi0000" x="0" y="2138" width="848" height="1064"/>
+	<SubTexture name="scraye0000" x="853" y="2138" width="848" height="1064"/>
+	<SubTexture name="frfr0000" x="1706" y="2138" width="848" height="1064"/>
+	<SubTexture name="ahh fuck0000" x="2559" y="2138" width="848" height="1064"/>
+</TextureAtlas>

@@ -1,0 +1,40 @@
+{
+	"storyName": "DIMENSIONAL DEEP END",
+	"hideFreeplay": false,
+	"difficulties": "Normal",	
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		155,
+		212,
+		23
+	],
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Decimal",
+			"ohungi",
+			[
+				155,
+				212,
+				23
+			]
+		],
+		[
+			"Egomania",
+			"ohungi",
+			[
+				155,
+				212,
+				23
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"ohungi",
+		"bf",
+		"gf"
+	],
+	"weekName": "ohungi"
+}

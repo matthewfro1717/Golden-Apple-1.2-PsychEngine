@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "GF Dancing Beat",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				14
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "GF left note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				-2
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "GF Down Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				79,
+				145
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "GF Up Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-65,
+				19
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "GF Right Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				81,
+				132
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "GF left note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				81,
+				132
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "GF Down Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				81,
+				132
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "GF Up Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				81,
+				132
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "GF Right Note",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/nothing",
+	"position": [
+		-30,
+		330
+	],
+	"healthicon": "3d-bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		67,
+		188,
+		231
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

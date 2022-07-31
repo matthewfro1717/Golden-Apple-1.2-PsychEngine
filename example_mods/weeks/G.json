@@ -1,0 +1,68 @@
+{
+	"songs": [
+		[
+			"Sunshine",
+			"doll",
+			[
+				20,
+				173,
+				100
+			]
+		],
+		[
+			"Left-Unchecked",
+			"ddl",
+			[
+				100,
+				0,
+				0
+			]
+		],
+		[
+			"Thunderstorm",
+			"dave-png",
+			[
+				0,
+				113,
+				255
+			]
+		],
+		[
+			"Collision",
+			"diamond",
+			[
+				0,
+				255,
+				255
+			]
+		],
+		[
+			"Bandullision",
+			"bandu",
+			[
+				40,
+				235,
+				100
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Covers",
+	"weekName": "Covers",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

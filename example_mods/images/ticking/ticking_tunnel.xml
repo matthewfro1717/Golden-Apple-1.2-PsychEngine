@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ticking_tunnel.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TUNNEL0000" x="10" y="10" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0001" x="10" y="10" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0002" x="10" y="823" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0003" x="10" y="823" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0004" x="10" y="1636" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0005" x="10" y="1636" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0006" x="10" y="2449" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0007" x="10" y="2449" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0008" x="10" y="3262" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0009" x="10" y="3262" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0010" x="10" y="4075" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0011" x="10" y="4075" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0012" x="10" y="4888" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0013" x="10" y="4888" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0014" x="10" y="5701" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0015" x="10" y="5701" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0016" x="10" y="6514" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0017" x="10" y="6514" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0018" x="10" y="7327" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0019" x="10" y="7327" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0020" x="1428" y="10" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0021" x="1428" y="10" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0022" x="1428" y="823" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0023" x="1428" y="823" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0024" x="1428" y="1636" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0025" x="1428" y="1636" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0026" x="1428" y="2449" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0027" x="1428" y="2449" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0028" x="1428" y="3262" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0029" x="1428" y="3262" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0030" x="1428" y="4075" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0031" x="1428" y="4075" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0032" x="1428" y="4888" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0033" x="1428" y="4888" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0034" x="1428" y="5701" width="1408" height="803"/>
+	<SubTexture name="TUNNEL0035" x="1428" y="5701" width="1408" height="803"/>
+</TextureAtlas>

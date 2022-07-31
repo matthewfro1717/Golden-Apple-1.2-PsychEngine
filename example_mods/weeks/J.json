@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"Slices",
+			"bandu",
+			[
+				0,
+				215,
+				0
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "TOP 10 AWESOME",
+	"weekName": "TOP 10 AWESOME",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

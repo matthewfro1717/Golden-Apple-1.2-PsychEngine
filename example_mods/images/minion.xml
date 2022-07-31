@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="minion.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cartwheel0000" x="968" y="813" width="878" height="793" frameX="-70" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0001" x="968" y="813" width="878" height="793" frameX="-70" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0002" x="1856" y="825" width="853" height="790" frameX="-95" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0003" x="1856" y="825" width="853" height="790" frameX="-95" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0004" x="883" y="1616" width="806" height="805" frameX="-142" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0005" x="883" y="1616" width="806" height="805" frameX="-142" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0006" x="2822" y="756" width="849" height="797" frameX="-99" frameY="-8" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0007" x="2822" y="756" width="849" height="797" frameX="-99" frameY="-8" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0008" x="1908" y="10" width="904" height="805" frameX="-44" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0009" x="1908" y="10" width="904" height="805" frameX="-44" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0010" x="10" y="10" width="948" height="805"/>
+	<SubTexture name="cartwheel0011" x="10" y="10" width="948" height="805"/>
+	<SubTexture name="cartwheel0012" x="968" y="10" width="930" height="793" frameX="0" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0013" x="968" y="10" width="930" height="793" frameX="0" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0014" x="2822" y="10" width="926" height="736" frameX="0" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0015" x="2822" y="10" width="926" height="736" frameX="0" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0016" x="2719" y="1563" width="900" height="705" frameX="0" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0017" x="2719" y="1563" width="900" height="705" frameX="0" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0018" x="10" y="825" width="863" height="794" frameX="0" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="cartwheel0019" x="10" y="825" width="863" height="794" frameX="0" frameY="0" frameWidth="948" frameHeight="805"/>
+	<SubTexture name="god i love trampolining0000" x="10" y="1629" width="461" height="886"/>
+	<SubTexture name="god i love trampolining0001" x="10" y="1629" width="461" height="886"/>
+	<SubTexture name="god i love trampolining0002" x="1699" y="1625" width="461" height="886"/>
+	<SubTexture name="god i love trampolining0003" x="1699" y="1625" width="461" height="886"/>
+	<SubTexture name="god i love trampolining0004" x="2170" y="1625" width="461" height="886"/>
+	<SubTexture name="god i love trampolining0005" x="2170" y="1625" width="461" height="886"/>
+	<SubTexture name="god i love trampolining0006" x="1699" y="1625" width="461" height="886"/>
+	<SubTexture name="god i love trampolining0007" x="1699" y="1625" width="461" height="886"/>
+	<SubTexture name="poip0000" x="481" y="2431" width="459" height="740"/>
+	<SubTexture name="poip0001" x="481" y="2431" width="459" height="740"/>
+	<SubTexture name="poip0002" x="10" y="2525" width="459" height="740"/>
+	<SubTexture name="poip0003" x="10" y="2525" width="459" height="740"/>
+	<SubTexture name="poip0004" x="950" y="2431" width="459" height="740"/>
+	<SubTexture name="poip0005" x="950" y="2431" width="459" height="740"/>
+	<SubTexture name="poip0006" x="2641" y="2278" width="459" height="740"/>
+	<SubTexture name="poip0007" x="2641" y="2278" width="459" height="740"/>
+	<SubTexture name="poip0008" x="3110" y="2278" width="459" height="740"/>
+	<SubTexture name="poip0009" x="3110" y="2278" width="459" height="740"/>
+	<SubTexture name="poip0010" x="2641" y="2278" width="459" height="740"/>
+	<SubTexture name="poip0011" x="2641" y="2278" width="459" height="740"/>
+	<SubTexture name="poip0012" x="950" y="2431" width="459" height="740"/>
+	<SubTexture name="poip0013" x="950" y="2431" width="459" height="740"/>
+	<SubTexture name="poip0014" x="10" y="2525" width="459" height="740"/>
+	<SubTexture name="poip0015" x="10" y="2525" width="459" height="740"/>
+</TextureAtlas>

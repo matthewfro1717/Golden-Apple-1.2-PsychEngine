@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="davec.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="2" y="2" width="463" height="673" frameX="0" frameY="-24" frameWidth="463" frameHeight="697"/>
+	<SubTexture name="idle0001" x="2" y="2" width="463" height="673" frameX="0" frameY="-24" frameWidth="463" frameHeight="697"/>
+	<SubTexture name="idle0002" x="475" y="2" width="460" height="683" frameX="0" frameY="-14" frameWidth="463" frameHeight="697"/>
+	<SubTexture name="idle0003" x="475" y="2" width="460" height="683" frameX="0" frameY="-14" frameWidth="463" frameHeight="697"/>
+	<SubTexture name="idle0004" x="945" y="2" width="460" height="696" frameX="0" frameY="-1" frameWidth="463" frameHeight="697"/>
+	<SubTexture name="idle0005" x="945" y="2" width="460" height="696" frameX="0" frameY="-1" frameWidth="463" frameHeight="697"/>
+	<SubTexture name="idle0006" x="1415" y="2" width="460" height="697" frameX="0" frameY="0" frameWidth="463" frameHeight="697"/>
+	<SubTexture name="idle0007" x="1415" y="2" width="460" height="697" frameX="0" frameY="0" frameWidth="463" frameHeight="697"/>
+</TextureAtlas>

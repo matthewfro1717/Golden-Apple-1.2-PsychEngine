@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CellMad.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Down0000" x="0" y="0" width="1127" height="1097"/>
+	<SubTexture name="Down0001" x="1131" y="0" width="1127" height="1097"/>
+	<SubTexture name="Down0002" x="1131" y="0" width="1127" height="1097"/>
+	<SubTexture name="Down0003" x="2262" y="0" width="1127" height="1097"/>
+	<SubTexture name="Down0004" x="2262" y="0" width="1127" height="1097"/>
+	<SubTexture name="Down0005" x="3393" y="0" width="1127" height="1097"/>
+	<SubTexture name="Down0006" x="3393" y="0" width="1127" height="1097"/>
+	<SubTexture name="Idle0000" x="4524" y="0" width="384" height="1484"/>
+	<SubTexture name="Idle0001" x="4912" y="0" width="384" height="1484"/>
+	<SubTexture name="Idle0002" x="4912" y="0" width="384" height="1484"/>
+	<SubTexture name="Idle0003" x="5300" y="0" width="384" height="1484"/>
+	<SubTexture name="Idle0004" x="5300" y="0" width="384" height="1484"/>
+	<SubTexture name="Idle0005" x="5688" y="0" width="384" height="1484"/>
+	<SubTexture name="Idle0006" x="5688" y="0" width="384" height="1484"/>
+	<SubTexture name="Left0000" x="6076" y="0" width="913" height="1441"/>
+	<SubTexture name="Left0001" x="6993" y="0" width="913" height="1441"/>
+	<SubTexture name="Left0002" x="6993" y="0" width="913" height="1441"/>
+	<SubTexture name="Left0003" x="0" y="1488" width="913" height="1441"/>
+	<SubTexture name="Left0004" x="0" y="1488" width="913" height="1441"/>
+	<SubTexture name="Left0005" x="917" y="1488" width="913" height="1441"/>
+	<SubTexture name="Left0006" x="917" y="1488" width="913" height="1441"/>
+	<SubTexture name="Right0000" x="1834" y="1488" width="1079" height="1366"/>
+	<SubTexture name="Right0001" x="2917" y="1488" width="1079" height="1366"/>
+	<SubTexture name="Right0002" x="2917" y="1488" width="1079" height="1366"/>
+	<SubTexture name="Right0003" x="4000" y="1488" width="1079" height="1366"/>
+	<SubTexture name="Right0004" x="4000" y="1488" width="1079" height="1366"/>
+	<SubTexture name="Right0005" x="5083" y="1488" width="1079" height="1366"/>
+	<SubTexture name="Right0006" x="5083" y="1488" width="1079" height="1366"/>
+	<SubTexture name="Up0000" x="6166" y="1488" width="754" height="1621"/>
+	<SubTexture name="Up0001" x="6924" y="1488" width="754" height="1621"/>
+	<SubTexture name="Up0002" x="6924" y="1488" width="754" height="1621"/>
+	<SubTexture name="Up0003" x="0" y="3113" width="754" height="1621"/>
+	<SubTexture name="Up0004" x="0" y="3113" width="754" height="1621"/>
+	<SubTexture name="Up0005" x="758" y="3113" width="754" height="1621"/>
+	<SubTexture name="Up0006" x="758" y="3113" width="754" height="1621"/>
+</TextureAtlas>

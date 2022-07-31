@@ -1,0 +1,40 @@
+{
+	"storyName": "Way to hell before death.",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "bandu",
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"disruption",
+			"disrupt",
+			[
+				80,
+				235,
+				100
+			]
+		],
+		[
+			"applecore",
+			"bandu",
+			[
+				40,
+				235,
+				100
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "AppleCore"
+}

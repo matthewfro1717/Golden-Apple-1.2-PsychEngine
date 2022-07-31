@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="3d_bf_dies.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DIE CONFIRM0000" x="6810" y="1286" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0001" x="7490" y="1286" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0002" x="10" y="1924" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0003" x="690" y="1924" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0004" x="1370" y="1924" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0005" x="2050" y="1924" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0006" x="2730" y="1924" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0007" x="3410" y="1924" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0008" x="4090" y="1924" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0009" x="4770" y="1924" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0010" x="5450" y="1924" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0011" x="6130" y="1924" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0012" x="6810" y="1924" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0013" x="7490" y="1924" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0014" x="10" y="2562" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0015" x="690" y="2562" width="670" height="628"/>
+	<SubTexture name="DIE CONFIRM0016" x="1370" y="2562" width="670" height="628"/>
+	<SubTexture name="DIE LOOP0000" x="3410" y="1286" width="670" height="628"/>
+	<SubTexture name="DIE LOOP0001" x="4090" y="1286" width="670" height="628"/>
+	<SubTexture name="DIE LOOP0002" x="4090" y="1286" width="670" height="628"/>
+	<SubTexture name="DIE LOOP0003" x="4770" y="1286" width="670" height="628"/>
+	<SubTexture name="DIE LOOP0004" x="4770" y="1286" width="670" height="628"/>
+	<SubTexture name="DIE LOOP0005" x="5450" y="1286" width="670" height="628"/>
+	<SubTexture name="DIE LOOP0006" x="5450" y="1286" width="670" height="628"/>
+	<SubTexture name="DIE LOOP0007" x="6130" y="1286" width="670" height="628"/>
+	<SubTexture name="DIE LOOP0008" x="6130" y="1286" width="670" height="628"/>
+	<SubTexture name="DIE LOOP0009" x="6130" y="1286" width="670" height="628"/>
+	<SubTexture name="DIES0000" x="10" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0001" x="690" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0002" x="690" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0003" x="10" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0004" x="10" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0005" x="1370" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0006" x="1370" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0007" x="2050" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0008" x="2050" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0009" x="2730" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0010" x="2730" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0011" x="3410" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0012" x="3410" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0013" x="4090" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0014" x="4090" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0015" x="4770" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0016" x="4770" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0017" x="5450" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0018" x="5450" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0019" x="6130" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0020" x="6130" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0021" x="6810" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0022" x="6810" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0023" x="7490" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0024" x="7490" y="10" width="670" height="628"/>
+	<SubTexture name="DIES0025" x="10" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0026" x="10" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0027" x="690" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0028" x="690" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0029" x="690" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0030" x="690" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0031" x="690" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0032" x="690" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0033" x="690" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0034" x="690" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0035" x="690" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0036" x="1370" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0037" x="2050" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0038" x="2730" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0039" x="3410" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0040" x="4090" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0041" x="4770" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0042" x="5450" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0043" x="6130" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0044" x="6810" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0045" x="7490" y="648" width="670" height="628"/>
+	<SubTexture name="DIES0046" x="10" y="1286" width="670" height="628"/>
+	<SubTexture name="DIES0047" x="690" y="1286" width="670" height="628"/>
+	<SubTexture name="DIES0048" x="1370" y="1286" width="670" height="628"/>
+	<SubTexture name="DIES0049" x="2050" y="1286" width="670" height="628"/>
+	<SubTexture name="DIES0050" x="2730" y="1286" width="670" height="628"/>
+	<SubTexture name="DIES0051" x="2730" y="1286" width="670" height="628"/>
+	<SubTexture name="DIES0052" x="2730" y="1286" width="670" height="628"/>
+	<SubTexture name="DIES0053" x="2730" y="1286" width="670" height="628"/>
+	<SubTexture name="DIES0054" x="2730" y="1286" width="670" height="628"/>
+	<SubTexture name="DIES0055" x="2730" y="1286" width="670" height="628"/>
+</TextureAtlas>
