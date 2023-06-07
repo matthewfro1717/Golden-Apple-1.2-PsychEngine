@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ferocious.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ferocious basic0000" x="10" y="472" width="555" height="131"/>
+	<SubTexture name="ferocious basic0001" x="10" y="472" width="555" height="131"/>
+	<SubTexture name="ferocious basic0002" x="10" y="472" width="555" height="131"/>
+	<SubTexture name="ferocious basic0003" x="10" y="613" width="555" height="131"/>
+	<SubTexture name="ferocious basic0004" x="10" y="613" width="555" height="131"/>
+	<SubTexture name="ferocious basic0005" x="10" y="613" width="555" height="131"/>
+	<SubTexture name="ferocious basic0006" x="10" y="754" width="555" height="131"/>
+	<SubTexture name="ferocious basic0007" x="10" y="754" width="555" height="131"/>
+	<SubTexture name="ferocious basic0008" x="10" y="754" width="555" height="131"/>
+	<SubTexture name="ferocious white0000" x="10" y="319" width="607" height="143" frameX="0" frameY="-1" frameWidth="607" frameHeight="145"/>
+	<SubTexture name="ferocious white0001" x="10" y="10" width="605" height="145" frameX="0" frameY="0" frameWidth="607" frameHeight="145"/>
+	<SubTexture name="ferocious white0002" x="10" y="165" width="604" height="144" frameX="0" frameY="-1" frameWidth="607" frameHeight="145"/>
+</TextureAtlas>

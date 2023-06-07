@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="disability.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="disability basic0000" x="10" y="544" width="644" height="132"/>
+	<SubTexture name="disability basic0001" x="10" y="544" width="644" height="132"/>
+	<SubTexture name="disability basic0002" x="10" y="544" width="644" height="132"/>
+	<SubTexture name="disability basic0003" x="10" y="686" width="644" height="132"/>
+	<SubTexture name="disability basic0004" x="10" y="686" width="644" height="132"/>
+	<SubTexture name="disability basic0005" x="10" y="686" width="644" height="132"/>
+	<SubTexture name="disability basic0006" x="10" y="828" width="644" height="132"/>
+	<SubTexture name="disability basic0007" x="10" y="828" width="644" height="132"/>
+	<SubTexture name="disability basic0008" x="10" y="828" width="644" height="132"/>
+	<SubTexture name="disability white0000" x="10" y="369" width="801" height="165" frameX="0" frameY="-2" frameWidth="801" frameHeight="171"/>
+	<SubTexture name="disability white0001" x="10" y="10" width="801" height="170" frameX="0" frameY="0" frameWidth="801" frameHeight="171"/>
+	<SubTexture name="disability white0002" x="10" y="190" width="801" height="169" frameX="0" frameY="-2" frameWidth="801" frameHeight="171"/>
+</TextureAtlas>

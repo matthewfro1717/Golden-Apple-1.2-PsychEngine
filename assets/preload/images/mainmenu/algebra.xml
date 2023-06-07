@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="algebra.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="algebra basic0000" x="10" y="513" width="457" height="130"/>
+	<SubTexture name="algebra basic0001" x="10" y="513" width="457" height="130"/>
+	<SubTexture name="algebra basic0002" x="10" y="513" width="457" height="130"/>
+	<SubTexture name="algebra basic0003" x="10" y="653" width="457" height="130"/>
+	<SubTexture name="algebra basic0004" x="10" y="653" width="457" height="130"/>
+	<SubTexture name="algebra basic0005" x="10" y="653" width="457" height="130"/>
+	<SubTexture name="algebra basic0006" x="10" y="793" width="457" height="130"/>
+	<SubTexture name="algebra basic0007" x="10" y="793" width="457" height="130"/>
+	<SubTexture name="algebra basic0008" x="10" y="793" width="457" height="130"/>
+	<SubTexture name="algebra white0000" x="10" y="10" width="555" height="158" frameX="-1" frameY="-1" frameWidth="556" frameHeight="159"/>
+	<SubTexture name="algebra white0001" x="10" y="346" width="555" height="157" frameX="0" frameY="-1" frameWidth="556" frameHeight="159"/>
+	<SubTexture name="algebra white0002" x="10" y="178" width="555" height="158" frameX="0" frameY="0" frameWidth="556" frameHeight="159"/>
+</TextureAtlas>

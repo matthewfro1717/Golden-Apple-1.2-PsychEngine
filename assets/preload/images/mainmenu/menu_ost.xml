@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ost.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ost basic0000" x="10" y="175" width="211" height="111"/>
+	<SubTexture name="ost basic0001" x="10" y="175" width="211" height="111"/>
+	<SubTexture name="ost basic0002" x="10" y="175" width="211" height="111"/>
+	<SubTexture name="ost basic0003" x="231" y="175" width="211" height="111"/>
+	<SubTexture name="ost basic0004" x="231" y="175" width="211" height="111"/>
+	<SubTexture name="ost basic0005" x="231" y="175" width="211" height="111"/>
+	<SubTexture name="ost basic0006" x="452" y="175" width="211" height="111"/>
+	<SubTexture name="ost basic0007" x="452" y="175" width="211" height="111"/>
+	<SubTexture name="ost basic0008" x="452" y="175" width="211" height="111"/>
+	<SubTexture name="ost white0000" x="309" y="10" width="288" height="155" frameX="-1" frameY="0" frameWidth="289" frameHeight="155"/>
+	<SubTexture name="ost white0001" x="10" y="10" width="289" height="155"/>
+	<SubTexture name="ost white0002" x="607" y="10" width="288" height="155" frameX="-1" frameY="0" frameWidth="289" frameHeight="155"/>
+</TextureAtlas>

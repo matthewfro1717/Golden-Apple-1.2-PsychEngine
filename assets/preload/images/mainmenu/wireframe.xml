@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wireframe.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="wireframe basic0000" x="10" y="497" width="625" height="130"/>
+	<SubTexture name="wireframe basic0001" x="10" y="497" width="625" height="130"/>
+	<SubTexture name="wireframe basic0002" x="10" y="497" width="625" height="130"/>
+	<SubTexture name="wireframe basic0003" x="10" y="637" width="625" height="130"/>
+	<SubTexture name="wireframe basic0004" x="10" y="637" width="625" height="130"/>
+	<SubTexture name="wireframe basic0005" x="10" y="637" width="625" height="130"/>
+	<SubTexture name="wireframe basic0006" x="10" y="777" width="625" height="130"/>
+	<SubTexture name="wireframe basic0007" x="10" y="777" width="625" height="130"/>
+	<SubTexture name="wireframe basic0008" x="10" y="777" width="625" height="130"/>
+	<SubTexture name="wireframe white0000" x="10" y="10" width="743" height="154"/>
+	<SubTexture name="wireframe white0001" x="10" y="174" width="741" height="153" frameX="-2" frameY="-1" frameWidth="743" frameHeight="154"/>
+	<SubTexture name="wireframe white0002" x="10" y="337" width="735" height="150" frameX="-6" frameY="-3" frameWidth="743" frameHeight="154"/>
+</TextureAtlas>
