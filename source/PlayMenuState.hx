@@ -179,7 +179,7 @@ class PlayMenuState extends MusicBeatState
 				changeItem(1);
 			}
 
-			if (controls.UI_BACK)
+			if (controls.BACK)
 			{
 				FlxG.switchState(new MainMenuState());
 			}
