@@ -68,9 +68,8 @@ class PlayState extends MusicBeatState
 	public static var STRUM_X_MIDDLESCROLL = -278;
         public static var characteroverride:String = "none";
 	public static var formoverride:String = "none";
-	//put the following in anywhere you load or leave playstate that isnt the character selector:
-	/*
-		PlayState.characteroverride = 'none';
+		
+	        PlayState.characteroverride = 'none';
 		PlayState.formoverride = 'none';
 
 	public static var ratingStuff:Array<Dynamic> = [
