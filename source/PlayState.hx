@@ -1224,7 +1224,9 @@ class PlayState extends MusicBeatState
 
 		Conductor.safeZoneOffset = (ClientPrefs.safeFrames / 60) * 1000;
 		callOnLuas('onCreatePost', []);
-		
+	        {
+                // nothing is here right now so go away
+                }
 		super.create();
 
 		Paths.clearUnusedMemory();
