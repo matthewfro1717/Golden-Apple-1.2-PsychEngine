@@ -3334,19 +3334,6 @@ class PlayState extends MusicBeatState
 					}
 				}
 			}
-			else if (xtraSong) {
-			FlxG.switchState(new ExtraSongState());
-		}
-		else
-		{
-			if(FlxG.save.data.freeplayCuts)
-			{
-				switch (SONG.song.toLowerCase())
-				{
-					default:
-						FlxG.switchState(new PlayMenuState());
-				}
-			}
 			else
 			{
 				trace('WENT BACK TO FREEPLAY??');
