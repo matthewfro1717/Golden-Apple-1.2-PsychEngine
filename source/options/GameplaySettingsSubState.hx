@@ -56,6 +56,13 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			false);
 		addOption(option);
 
+		var option:Option = new Option('FreeplayCuts', //Name
+			'If checked, freeplay cutscenes will be on', //Description
+			'freeplayCuts', //Save data variable name
+			'bool', //Variable type
+			false); //Default value
+		addOption(option);
+		
 		var option:Option = new Option('Ghost Tapping',
 			"If checked, you won't get misses from pressing keys\nwhile there are no notes able to be hit.",
 			'ghostTapping',
