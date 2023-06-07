@@ -51,6 +51,7 @@ class Character extends FlxSprite
 
 	public var isPlayer:Bool = false;
 	public var curCharacter:String = DEFAULT_CHARACTER;
+	public var canDance:Bool = true;
 
 	public var nativelyPlayable:Bool = false;
 
