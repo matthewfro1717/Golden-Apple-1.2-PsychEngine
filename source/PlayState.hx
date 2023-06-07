@@ -712,6 +712,10 @@ class PlayState extends MusicBeatState
 			introSoundsSuffix = '-pixel';
 		}
 
+		if(isPixelStage) {
+			introSoundsSuffix = '-pixel';
+		}
+
 		add(gfGroup); //Needed for blammed lights
 
 		// Shitty layering but whatev it works LOL
