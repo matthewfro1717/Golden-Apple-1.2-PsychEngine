@@ -1087,39 +1087,10 @@ class PlayState extends MusicBeatState
 		timeBarBG.cameras = [camHUD];
 		timeTxt.cameras = [camHUD];
 		doof.cameras = [camHUD];
-
 	
-		startingSong = true;
-
-		if (isStoryMode || FlxG.save.data.freeplayCuts)
-		{
-			switch (curSong.toLowerCase())
-			{
-				case 'disruption' | 'applecore' | 'disability' | 'wireframe' | 'algebra':
-					schoolIntro(doof);
-				case 'origin':
-					originCutscene();
-				default:
-					startCountdown();
-			}
-		}
-		else
-		{
-			switch (curSong.toLowerCase())
-			{
-				case 'origin':
-					originCutscene();
-				default:
-					startCountdown();
-			}
-		}
-
-		super.create();
-	}
-        
-        #if android
-        addAndroidControls();
-        #end
+               #if android
+               addAndroidControls();
+               #end
 
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;
@@ -1258,6 +1229,32 @@ class PlayState extends MusicBeatState
 
 		Paths.clearUnusedMemory();
 		CustomFadeTransition.nextCamera = camOther;
+	}
+
+	startingSong = true;
+
+	if (isStoryMode || FlxG.save.data.freeplayCuts)
+	{
+		switch (curSong.toLowerCase())
+		{
+			case 'disruption' | 'applecore' | 'disability' | 'wireframe' | 'algebra':
+				schoolIntro(doof);
+			case 'origin':
+				originCutscene();
+			default:
+				startCountdown();
+		}
+	}
+	else
+	{
+		switch (curSong.toLowerCase())
+		{
+			case 'origin':
+				originCutscene();
+			default:
+				startCountdown();
+		}
+		super.create();
 	}
 
 	function set_songSpeed(value:Float):Float
