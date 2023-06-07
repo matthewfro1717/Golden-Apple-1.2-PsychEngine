@@ -556,6 +556,7 @@ class SongMetadata
 	public var songCharacter:String = "";
 	public var color:Int = -7179779;
 	public var folder:String = "";
+	public var blackoutIcon:Bool = false;
 
 	public function new(song:String, week:Int, songCharacter:String, color:Int)
 	{
