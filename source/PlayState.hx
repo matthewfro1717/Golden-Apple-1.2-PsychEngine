@@ -1230,8 +1230,6 @@ class PlayState extends MusicBeatState
 		CustomFadeTransition.nextCamera = camOther;
 	}
 
-	startingSong = true;
-
 	if (isStoryMode || FlxG.save.data.freeplayCuts)
 	{
 		switch (curSong.toLowerCase())
