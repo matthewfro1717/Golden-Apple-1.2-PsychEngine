@@ -136,7 +136,7 @@ class PlayState extends MusicBeatState
 	
 	public static var screenshader:Shaders.PulseEffect = new PulseEffect();
     
-    public var curbg:FlxSprite;
+        public var curbg:FlxSprite;
     
 	//Handles the new epic mega sexy cam code that i've done
 	private var camFollow:FlxPoint;
@@ -155,6 +155,8 @@ class PlayState extends MusicBeatState
 	public var gfSpeed:Int = 1;
 	public var health:Float = 1;
 	public var combo:Int = 0;
+
+	public var bfSpazOut:Bool = false;
 
 	private var healthBarBG:AttachedSprite;
 	public var healthBar:FlxBar;
@@ -186,8 +188,6 @@ class PlayState extends MusicBeatState
 
 	public var botplaySine:Float = 0;
 	public var botplayTxt:FlxText;
-
-	public static var xtraSong:Bool = false;
 	
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
@@ -236,6 +236,8 @@ class PlayState extends MusicBeatState
 	public var scoreTxt:FlxText;
 	var timeTxt:FlxText;
 	var scoreTxtTween:FlxTween;
+
+	var focusOnDadGlobal:Bool = true;
 
 	public static var campaignScore:Int = 0;
 	public static var campaignMisses:Int = 0;
@@ -2730,6 +2732,58 @@ class PlayState extends MusicBeatState
 		setOnLuas('cameraY', camFollowPos.y);
 		setOnLuas('botPlay', cpuControlled);
 		callOnLuas('onUpdatePost', [elapsed]);
+	}
+
+	public static var xtraSong:Bool = false;
+
+	function focusOnChar(char:Character) {
+		camFollow.set(char.getMidpoint().x + 150, char.getMidpoint().y - 100);
+		// camFollow.setPosition(lucky.getMidpoint().x - 120, lucky.getMidpoint().y + 210);
+
+		switch (char.curCharacter)
+		{
+			case 'bandu':
+				char.POOP ? {
+				!SONG.notes[Math.floor(curStep / 16)].altAnim ? {
+				camFollow.set(littleIdiot.getMidpoint().x, littleIdiot.getMidpoint().y - 300);
+				defaultCamZoom = 0.35;
+				} :
+					camFollow.set(swagger.getMidpoint().x + 150, swagger.getMidpoint().y - 100);
+			} :
+				camFollow.set(boyfriend.getMidpoint().x - 100, boyfriend.getMidpoint().y - 100);
+			case 'bandu-candy':
+				camFollow.set(char.getMidpoint().x + 175, char.getMidpoint().y - 85);
+			case 'bambom':
+				camFollow.y += 100;
+			case 'sart-producer':
+				camFollow.x -= 100;
+			case 'sart-producer-night':
+				camFollow.y += 250;
+				camFollow.x -= 425;
+			case 'dave-wheels':
+				camFollow.y -= 150;
+			case 'hall-monitor':
+				camFollow.x -= 200;
+				camFollow.y -= 180;
+			case 'playrobot':
+				camFollow.x -= 160;
+				camFollow.y = boyfriend.getMidpoint().y - 100;
+			case 'playrobot-crazy':
+				camFollow.x -= 160;
+				camFollow.y -= 10;
+			case 'playtime':
+				camFollow.x = dad.getMidpoint().x -300;
+				camFollow.y = dad.getMidpoint().y -300;
+			case 'bf-ipad':
+				camFollow.x = dad.getMidpoint().x +700;
+				camFollow.y = dad.getMidpoint().y -150;
+			case 'garrett-ipad':
+				camFollow.x = dad.getMidpoint().x +700;
+				camFollow.y = dad.getMidpoint().y -150;
+			case 'pedophile':
+				camFollow.x = dad.getMidpoint().x +50;
+				camFollow.y = dad.getMidpoint().y -100;
+		}
 	}
 
 	function openChartEditor()
