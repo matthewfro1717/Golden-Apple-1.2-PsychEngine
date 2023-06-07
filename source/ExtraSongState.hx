@@ -143,7 +143,9 @@ class ExtraSongState extends MusicBeatState
 
     public function addSong(songName:String, weekNum:Int, songCharacter:String, blackoutIcon:Bool = false)
 	{
+		#if (flixel < "4.11.0")
 		songs.push(new SongMetadata(songName, weekNum, songCharacter, blackoutIcon));
+		#end
 	}
 
     override function update(p:Float)
