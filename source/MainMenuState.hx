@@ -32,15 +32,7 @@ class MainMenuState extends MusicBeatState
 	private var camGame:FlxCamera;
 	private var camAchievement:FlxCamera;
 	
-	var optionShit:Array<String> = [
-		'story_mode',
-		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
-		#if ACHIEVEMENTS_ALLOWED 'awards', #end
-		'credits',
-		#if !switch 'donate', #end
-		'options'
-	];
+	var optionShit:Array<String> = ['play', 'options', 'credits', 'discord', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'dave x bambi shipping cute'];
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
@@ -249,6 +241,28 @@ class MainMenuState extends MusicBeatState
 										MusicBeatState.switchState(new CreditsState());
 									case 'options':
 										LoadingState.loadAndSwitchState(new options.OptionsState());
+								case 'extras':
+									FlxG.switchState(new ExtraSongState());
+								case 'ost':
+									FlxG.switchState(new MusicPlayerState());
+								case 'credits':
+									FlxG.switchState(new CreditsMenuState());
+								case 'play':
+									FlxG.switchState(new PlayMenuState());
+								case 'dave x bambi shipping cute':
+									var poop:String = Highscore.formatSong('dave-x-bambi-shipping-cute', 1);
+
+									trace(poop);
+
+									FlxG.save.data.shipUnlocked = true;
+						
+									PlayState.SONG = Song.loadFromJson(poop, 'dave-x-bambi-shipping-cute');
+									PlayState.isStoryMode = false;
+									PlayState.storyDifficulty = 1;
+									PlayState.xtraSong = false;
+						
+									PlayState.storyWeek = 1;
+									LoadingState.loadAndSwitchState(new PlayState());
 								}
 							});
 						}
