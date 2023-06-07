@@ -230,6 +230,11 @@ class Paths
 		var inst = returnSound('songs', songKey);
 		return inst;
 	}
+	
+	inline static public function externmusic(song:String)
+	{
+		return 'songs:assets/songs/extern/${song.toLowerCase()}.$SOUND_EXT';
+	}
 
 	inline static public function image(key:String, ?library:String):FlxGraphic
 	{
