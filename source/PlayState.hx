@@ -1224,10 +1224,7 @@ class PlayState extends MusicBeatState
 
 		Conductor.safeZoneOffset = (ClientPrefs.safeFrames / 60) * 1000;
 		callOnLuas('onCreatePost', []);
-	        {
-                // nothing is here right now so go away
-                }
-		super.create();
+	        super.create();
 
 		Paths.clearUnusedMemory();
 		CustomFadeTransition.nextCamera = camOther;
