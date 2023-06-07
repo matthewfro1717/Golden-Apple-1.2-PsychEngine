@@ -1087,7 +1087,6 @@ class PlayState extends MusicBeatState
 		timeBarBG.cameras = [camHUD];
 		timeTxt.cameras = [camHUD];
 		doof.cameras = [camHUD];
-
 	
 		startingSong = true;
 
@@ -1114,12 +1113,9 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		super.create();
-	}
-        
-        #if android
-        addAndroidControls();
-        #end
+                #if android
+                addAndroidControls();
+                #end
 
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;
@@ -1253,8 +1249,7 @@ class PlayState extends MusicBeatState
 
 		Conductor.safeZoneOffset = (ClientPrefs.safeFrames / 60) * 1000;
 		callOnLuas('onCreatePost', []);
-		
-		super.create();
+	        super.create();
 
 		Paths.clearUnusedMemory();
 		CustomFadeTransition.nextCamera = camOther;
