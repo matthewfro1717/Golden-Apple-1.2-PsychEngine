@@ -817,7 +817,23 @@ class Controls extends FlxActionSet
 			case UI_DOWN:
 				func(_ui_down, PRESSED);
 				func(_ui_downP, JUST_PRESSED);
-				func(_ui_downR, JUST_RELEASED);
+				func(_ui_downR, JUST_RELEASED);		
+			case UP:
+				func(_up, PRESSED);
+				func(_upP, JUST_PRESSED);
+				func(_upR, JUST_RELEASED);
+			case LEFT:
+				func(_left, PRESSED);
+				func(_leftP, JUST_PRESSED);
+				func(_leftR, JUST_RELEASED);
+			case RIGHT:
+				func(_right, PRESSED);
+				func(_rightP, JUST_PRESSED);
+				func(_rightR, JUST_RELEASED);
+			case DOWN:
+				func(_down, PRESSED);
+				func(_downP, JUST_PRESSED);
+				func(_downR, JUST_RELEASED);
 			case NOTE_UP:
 				func(_note_up, PRESSED);
 				func(_note_upP, JUST_PRESSED);
