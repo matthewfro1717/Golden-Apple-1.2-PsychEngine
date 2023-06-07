@@ -1088,9 +1088,38 @@ class PlayState extends MusicBeatState
 		timeTxt.cameras = [camHUD];
 		doof.cameras = [camHUD];
 
-                #if android
-                addAndroidControls();
-                #end
+	
+		startingSong = true;
+
+		if (isStoryMode || FlxG.save.data.freeplayCuts)
+		{
+			switch (curSong.toLowerCase())
+			{
+				case 'disruption' | 'applecore' | 'disability' | 'wireframe' | 'algebra':
+					schoolIntro(doof);
+				case 'origin':
+					originCutscene();
+				default:
+					startCountdown();
+			}
+		}
+		else
+		{
+			switch (curSong.toLowerCase())
+			{
+				case 'origin':
+					originCutscene();
+				default:
+					startCountdown();
+			}
+		}
+
+		super.create();
+	}
+        
+        #if android
+        addAndroidControls();
+        #end
 
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;
@@ -1967,6 +1996,165 @@ class PlayState extends MusicBeatState
 		}
 		checkEventNote();
 		generatedMusic = true;
+	}
+	function ZoomCam(focusondad:Bool):Void
+	{
+		var bfplaying:Bool = false;
+		if (focusondad)
+		{
+			notes.forEachAlive(function(daNote:Note)
+			{
+				if (!bfplaying)
+				{
+					if (daNote.mustPress)
+					{
+						bfplaying = true;
+					}
+				}
+			});
+			if (UsingNewCam && bfplaying)
+			{
+				return;
+			}
+		}
+		if (focusondad)
+		{
+			focusOnChar(badaiTime ? badai : dad);
+
+			bfNoteCamOffset[0] = 0;
+			bfNoteCamOffset[1] = 0;
+
+			camFollow.x += dadNoteCamOffset[0];
+			camFollow.y += dadNoteCamOffset[1];
+
+			if (SONG.song.toLowerCase() == 'tutorial')
+			{
+				tweenCamIn();
+			}
+		}
+
+		if (!focusondad)
+		{
+			camFollow.set(boyfriend.getMidpoint().x - 100, boyfriend.getMidpoint().y - 100);
+
+			dadNoteCamOffset[0] = 0;
+			dadNoteCamOffset[1] = 0;
+
+			camFollow.x += bfNoteCamOffset[0];
+			camFollow.y += bfNoteCamOffset[1];
+
+			if (SONG.song.toLowerCase() == 'applecore') defaultCamZoom = 0.5;
+
+			if (boyfriend.curCharacter == 'bandu-scaredy') camFollow.x += 350;
+
+			if (SONG.song.toLowerCase() == 'tutorial')
+			{
+				FlxTween.tween(FlxG.camera, {zoom: 1}, (Conductor.stepCrochet * 4 / 1000), {ease: FlxEase.elasticInOut});
+			}
+		}
+	}
+
+	function originCutscene():Void
+	{
+		inCutscene = true;
+		camHUD.visible = false;
+		dad.alpha = 0;
+		dad.canDance = false;
+		focusOnDadGlobal = false;
+		focusOnChar(boyfriend);
+		new FlxTimer().start(1, function(suckMyGoddamnCock:FlxTimer)
+		{
+			FlxG.sound.play(Paths.sound('origin_bf_call'));
+			boyfriend.canDance = false;
+			bfSpazOut = true;
+			new FlxTimer().start(1.35, function(cockAndBalls:FlxTimer)
+			{
+				boyfriend.canDance = true;
+				bfSpazOut = false;
+				focusOnDadGlobal = true;
+				focusOnChar(dad);
+				new FlxTimer().start(0.5, function(ballsInJaws:FlxTimer)
+				{
+					dad.alpha = 1;
+					dad.playAnim('cutscene');
+					FlxG.sound.play(Paths.sound('origin_intro'));
+					new FlxTimer().start(1.5, function(deezCandies:FlxTimer)
+					{
+						FlxG.sound.play(Paths.sound('origin_bandu_talk'));
+						dad.playAnim('singUP');
+						new FlxTimer().start(1.5, function(penisCockDick:FlxTimer)
+						{
+							dad.canDance = true;
+							focusOnDadGlobal = false;
+							focusOnChar(boyfriend);
+							boyfriend.canDance = false;
+							bfSpazOut = true;
+							FlxG.sound.play(Paths.sound('origin_bf_talk'));
+							new FlxTimer().start(1.5, function(buttAssAnusGluteus:FlxTimer)
+							{
+								boyfriend.canDance = true;
+								bfSpazOut = false;
+								focusOnDadGlobal = true;
+								focusOnChar(dad);
+								startCountdown();
+							});
+						});
+					});
+				});
+			});
+		});
+	}
+
+	public static var xtraSong:Bool = false;
+
+	function focusOnChar(char:Character) {
+		camFollow.set(char.getMidpoint().x + 150, char.getMidpoint().y - 100);
+		// camFollow.setPosition(lucky.getMidpoint().x - 120, lucky.getMidpoint().y + 210);
+
+		switch (char.curCharacter)
+		{
+			case 'bandu':
+				char.POOP ? {
+				!SONG.notes[Math.floor(curStep / 16)].altAnim ? {
+				camFollow.set(littleIdiot.getMidpoint().x, littleIdiot.getMidpoint().y - 300);
+				defaultCamZoom = 0.35;
+				} :
+					camFollow.set(swagger.getMidpoint().x + 150, swagger.getMidpoint().y - 100);
+			} :
+				camFollow.set(boyfriend.getMidpoint().x - 100, boyfriend.getMidpoint().y - 100);
+			case 'bandu-candy':
+				camFollow.set(char.getMidpoint().x + 175, char.getMidpoint().y - 85);
+			case 'bambom':
+				camFollow.y += 100;
+			case 'sart-producer':
+				camFollow.x -= 100;
+			case 'sart-producer-night':
+				camFollow.y += 250;
+				camFollow.x -= 425;
+			case 'dave-wheels':
+				camFollow.y -= 150;
+			case 'hall-monitor':
+				camFollow.x -= 200;
+				camFollow.y -= 180;
+			case 'playrobot':
+				camFollow.x -= 160;
+				camFollow.y = boyfriend.getMidpoint().y - 100;
+			case 'playrobot-crazy':
+				camFollow.x -= 160;
+				camFollow.y -= 10;
+			case 'playtime':
+				camFollow.x = dad.getMidpoint().x -300;
+				camFollow.y = dad.getMidpoint().y -300;
+			case 'bf-ipad':
+				camFollow.x = dad.getMidpoint().x +700;
+				camFollow.y = dad.getMidpoint().y -150;
+			case 'garrett-ipad':
+				camFollow.x = dad.getMidpoint().x +700;
+				camFollow.y = dad.getMidpoint().y -150;
+			case 'pedophile':
+				camFollow.x = dad.getMidpoint().x +50;
+				camFollow.y = dad.getMidpoint().y -100;
+		}
 	}
 
 	function eventPushed(event:EventNote) {
