@@ -134,7 +134,7 @@ class PlayState extends MusicBeatState
 	
 	public static var screenshader:Shaders.PulseEffect = new PulseEffect();
     
-    public var curbg:FlxSprite;
+        public var curbg:FlxSprite;
     
 	//Handles the new epic mega sexy cam code that i've done
 	private var camFollow:FlxPoint;
@@ -277,6 +277,22 @@ class PlayState extends MusicBeatState
 
 	override public function create()
 	{
+		if (SONG.song.toLowerCase() == 'cuberoot') // THIS TOOK A FUCKING HOUR UGHHHHH
+		{
+			var krunkThing = 10;
+	
+			poop.alpha = Math.sin(elapsedtime) / 2.5 + 0.4;
+
+			playerStrums.forEach(function(spr:FlxSprite)
+			{
+				spr.y = arrowJunks[spr.ID][1] + Math.sin(elapsedtime - 5 * (spr.ID + 1)) * (spr.ID + 2) * krunkThing;
+			});
+			dadStrums.forEach(function(spr:Strum)
+			{
+				spr.y = arrowJunks[spr.ID][1] + Math.sin(elapsedtime - 5 * (spr.ID + 1)) * (spr.ID + 2) * krunkThing;
+			});
+		}
+		
 		Paths.clearStoredMemory();
 
 		// for lua
