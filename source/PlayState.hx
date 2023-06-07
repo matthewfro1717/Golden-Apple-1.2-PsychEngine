@@ -66,6 +66,12 @@ class PlayState extends MusicBeatState
 {
 	public static var STRUM_X = 42;
 	public static var STRUM_X_MIDDLESCROLL = -278;
+        public static var characteroverride:String = "none";
+	public static var formoverride:String = "none";
+	//put the following in anywhere you load or leave playstate that isnt the character selector:
+	/*
+		PlayState.characteroverride = 'none';
+		PlayState.formoverride = 'none';
 
 	public static var ratingStuff:Array<Dynamic> = [
 		['You Suck!', 0.2], //From 0% to 19%
@@ -160,7 +166,9 @@ class PlayState extends MusicBeatState
 
 	private var timeBarBG:AttachedSprite;
 	public var timeBar:FlxBar;
-	
+
+	public static var curmult:Array<Float> = [1, 1, 1, 1];
+
 	public var sicks:Int = 0;
 	public var goods:Int = 0;
 	public var bads:Int = 0;
@@ -183,6 +191,8 @@ class PlayState extends MusicBeatState
 	public var botplaySine:Float = 0;
 	public var botplayTxt:FlxText;
 
+	public static var xtraSong:Bool = false;
+	
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
 	public var camHUD:FlxCamera;
@@ -1534,6 +1544,57 @@ class PlayState extends MusicBeatState
 
 				remove(black);
 			}
+		});
+	}
+
+	function originCutscene():Void
+	{
+		inCutscene = true;
+		camHUD.visible = false;
+		dad.alpha = 0;
+		dad.canDance = false;
+		focusOnDadGlobal = false;
+		focusOnChar(boyfriend);
+		new FlxTimer().start(1, function(suckMyGoddamnCock:FlxTimer)
+		{
+			FlxG.sound.play(Paths.sound('origin_bf_call'));
+			boyfriend.canDance = false;
+			bfSpazOut = true;
+			new FlxTimer().start(1.35, function(cockAndBalls:FlxTimer)
+			{
+				boyfriend.canDance = true;
+				bfSpazOut = false;
+				focusOnDadGlobal = true;
+				focusOnChar(dad);
+				new FlxTimer().start(0.5, function(ballsInJaws:FlxTimer)
+				{
+					dad.alpha = 1;
+					dad.playAnim('cutscene');
+					FlxG.sound.play(Paths.sound('origin_intro'));
+					new FlxTimer().start(1.5, function(deezCandies:FlxTimer)
+					{
+						FlxG.sound.play(Paths.sound('origin_bandu_talk'));
+						dad.playAnim('singUP');
+						new FlxTimer().start(1.5, function(penisCockDick:FlxTimer)
+						{
+							dad.canDance = true;
+							focusOnDadGlobal = false;
+							focusOnChar(boyfriend);
+							boyfriend.canDance = false;
+							bfSpazOut = true;
+							FlxG.sound.play(Paths.sound('origin_bf_talk'));
+							new FlxTimer().start(1.5, function(buttAssAnusGluteus:FlxTimer)
+							{
+								boyfriend.canDance = true;
+								bfSpazOut = false;
+								focusOnDadGlobal = true;
+								focusOnChar(dad);
+								startCountdown();
+							});
+						});
+					});
+				});
+			});
 		});
 	}
 
