@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="deformation.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="deformation basic0000" x="10" y="507" width="722" height="130"/>
+	<SubTexture name="deformation basic0001" x="10" y="507" width="722" height="130"/>
+	<SubTexture name="deformation basic0002" x="10" y="507" width="722" height="130"/>
+	<SubTexture name="deformation basic0003" x="10" y="647" width="722" height="130"/>
+	<SubTexture name="deformation basic0004" x="10" y="647" width="722" height="130"/>
+	<SubTexture name="deformation basic0005" x="10" y="647" width="722" height="130"/>
+	<SubTexture name="deformation basic0006" x="10" y="787" width="722" height="130"/>
+	<SubTexture name="deformation basic0007" x="10" y="787" width="722" height="130"/>
+	<SubTexture name="deformation basic0008" x="10" y="787" width="722" height="130"/>
+	<SubTexture name="deformation white0000" x="10" y="10" width="883" height="158"/>
+	<SubTexture name="deformation white0001" x="10" y="178" width="882" height="155" frameX="0" frameY="-2" frameWidth="883" frameHeight="158"/>
+	<SubTexture name="deformation white0002" x="10" y="343" width="882" height="154" frameX="0" frameY="-2" frameWidth="883" frameHeight="158"/>
+</TextureAtlas>
