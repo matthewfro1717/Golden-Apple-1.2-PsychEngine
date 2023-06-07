@@ -229,7 +229,7 @@ class PlayMenuState extends MusicBeatState
 									var poop:String = Highscore.formatSong(daChoice, 1);
 									trace(poop);
 							
-									PlayState.SONG = Song.loadFromJson(poop, daChoice);
+									PlayState.SONG = Song.loadFromJson(daChoice);
 									PlayState.isStoryMode = false;
 									PlayState.storyDifficulty = 1;
 									PlayState.xtraSong = false;
