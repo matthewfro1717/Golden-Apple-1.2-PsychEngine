@@ -1088,9 +1088,34 @@ class PlayState extends MusicBeatState
 		timeTxt.cameras = [camHUD];
 		doof.cameras = [camHUD];
 	
-               #if android
-               addAndroidControls();
-               #end
+		startingSong = true;
+
+		if (isStoryMode || FlxG.save.data.freeplayCuts)
+		{
+			switch (curSong.toLowerCase())
+			{
+				case 'disruption' | 'applecore' | 'disability' | 'wireframe' | 'algebra':
+					schoolIntro(doof);
+				case 'origin':
+					originCutscene();
+				default:
+					startCountdown();
+			}
+		}
+		else
+		{
+			switch (curSong.toLowerCase())
+			{
+				case 'origin':
+					originCutscene();
+				default:
+					startCountdown();
+			}
+		}
+
+                #if android
+                addAndroidControls();
+                #end
 
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;
@@ -1228,30 +1253,6 @@ class PlayState extends MusicBeatState
 
 		Paths.clearUnusedMemory();
 		CustomFadeTransition.nextCamera = camOther;
-	}
-
-	if (isStoryMode || FlxG.save.data.freeplayCuts)
-	{
-		switch (curSong.toLowerCase())
-		{
-			case 'disruption' | 'applecore' | 'disability' | 'wireframe' | 'algebra':
-				schoolIntro(doof);
-			case 'origin':
-				originCutscene();
-			default:
-				startCountdown();
-		}
-	}
-	else
-	{
-		switch (curSong.toLowerCase())
-		{
-			case 'origin':
-				originCutscene();
-			default:
-				startCountdown();
-		}
-		super.create();
 	}
 
 	function set_songSpeed(value:Float):Float
