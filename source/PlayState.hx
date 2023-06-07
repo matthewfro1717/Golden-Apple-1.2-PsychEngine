@@ -129,8 +129,8 @@ class PlayState extends MusicBeatState
 	private var badai:Character;
 	private var swagger:Character;
 	public var gf:Character = null;
-	public var boyfriend:Boyfriend = null
-	private var littleIdiot:Character;;
+	public var boyfriend:Boyfriend = null;
+	private var littleIdiot:Character;
 
 	public var notes:FlxTypedGroup<Note>;
 	public var unspawnNotes:Array<Note> = [];
